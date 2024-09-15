@@ -1,0 +1,52 @@
+.resultList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .resultItem {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+  
+  .resultItem:last-child {
+    border-bottom: none;
+  }
+  
+  .resultTitle {
+    font-size: 1.2em;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .resultTitle:hover {
+    text-decoration: underline;
+  }
+  
+  .resultSnippet {
+    font-size: 0.9em;
+    color: #333;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 1.2em;
+    color: #007bff;
+  }
+  
+  .error {
+    text-align: center;
+    font-size: 1.2em;
+    color: #dc3545;
+  }
+  
+  .noResults {
+    text-align: center;
+    font-size: 1.2em;
+    color: #6c757d;
+  }
+  
